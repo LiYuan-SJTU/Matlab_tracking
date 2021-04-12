@@ -1,0 +1,4 @@
+# Matlab_tracking
+## 这些代码是用来做tracking的，主要是依托于Trackmate提供的api接口实现的
+* Manual tracking是用matlab中的`regionprops`进行粒子识别，然后通过逐个粒子传递给java，再用trackmate进行LAP连接
+* Trackmate_tracking就完全是在matlab中运行trackmate了
